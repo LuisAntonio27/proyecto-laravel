@@ -1,4 +1,3 @@
-
 @extends('layouts.demo')
 
 @section('content')
