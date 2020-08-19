@@ -25,5 +25,7 @@ Route::get('/test1', function(){
 });
 
 Route::get('/test2', function(){
-	return view('test2');
+	return view('test2', [
+		'foo' => 'bar2'
+	]);
 });
